@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3A2CDA218E2E4100E83894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A2CD9218E2E4100E83894 /* AppDelegate.swift */; };
+		EC3A2CDC218E2E4100E83894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A2CDB218E2E4100E83894 /* ViewController.swift */; };
+		EC3A2CDF218E2E4100E83894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3A2CDD218E2E4100E83894 /* Main.storyboard */; };
+		EC3A2CE1218E2E4400E83894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3A2CE0218E2E4400E83894 /* Assets.xcassets */; };
+		EC3A2CE4218E2E4400E83894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3A2CE2218E2E4400E83894 /* LaunchScreen.storyboard */; };
+		EC3A2CEF218E2E4400E83894 /* NopiodappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A2CEE218E2E4400E83894 /* NopiodappTests.swift */; };
+		EC3A2CFA218E2E4400E83894 /* NopiodappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A2CF9218E2E4400E83894 /* NopiodappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3A2CEB218E2E4400E83894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3A2CCE218E2E4100E83894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3A2CD5218E2E4100E83894;
+			remoteInfo = Nopiodapp;
+		};
+		EC3A2CF6218E2E4400E83894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3A2CCE218E2E4100E83894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3A2CD5218E2E4100E83894;
+			remoteInfo = Nopiodapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC3A2CD6218E2E4100E83894 /* Nopiodapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nopiodapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3A2CD9218E2E4100E83894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC3A2CDB218E2E4100E83894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC3A2CDE218E2E4100E83894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3A2CE0218E2E4400E83894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC3A2CE3218E2E4400E83894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC3A2CE5218E2E4400E83894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3A2CEA218E2E4400E83894 /* NopiodappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NopiodappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3A2CEE218E2E4400E83894 /* NopiodappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NopiodappTests.swift; sourceTree = "<group>"; };
+		EC3A2CF0218E2E4400E83894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3A2CF5218E2E4400E83894 /* NopiodappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NopiodappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3A2CF9218E2E4400E83894 /* NopiodappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NopiodappUITests.swift; sourceTree = "<group>"; };
+		EC3A2CFB218E2E4400E83894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3A2CD3218E2E4100E83894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A2CE7218E2E4400E83894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A2CF2218E2E4400E83894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3A2CCD218E2E4100E83894 = {
+			isa = PBXGroup;
+			children = (
+				EC3A2CD8218E2E4100E83894 /* Nopiodapp */,
+				EC3A2CED218E2E4400E83894 /* NopiodappTests */,
+				EC3A2CF8218E2E4400E83894 /* NopiodappUITests */,
+				EC3A2CD7218E2E4100E83894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3A2CD7218E2E4100E83894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A2CD6218E2E4100E83894 /* Nopiodapp.app */,
+				EC3A2CEA218E2E4400E83894 /* NopiodappTests.xctest */,
+				EC3A2CF5218E2E4400E83894 /* NopiodappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3A2CD8218E2E4100E83894 /* Nopiodapp */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A2CD9218E2E4100E83894 /* AppDelegate.swift */,
+				EC3A2CDB218E2E4100E83894 /* ViewController.swift */,
+				EC3A2CDD218E2E4100E83894 /* Main.storyboard */,
+				EC3A2CE0218E2E4400E83894 /* Assets.xcassets */,
+				EC3A2CE2218E2E4400E83894 /* LaunchScreen.storyboard */,
+				EC3A2CE5218E2E4400E83894 /* Info.plist */,
+			);
+			path = Nopiodapp;
+			sourceTree = "<group>";
+		};
+		EC3A2CED218E2E4400E83894 /* NopiodappTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A2CEE218E2E4400E83894 /* NopiodappTests.swift */,
+				EC3A2CF0218E2E4400E83894 /* Info.plist */,
+			);
+			path = NopiodappTests;
+			sourceTree = "<group>";
+		};
+		EC3A2CF8218E2E4400E83894 /* NopiodappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A2CF9218E2E4400E83894 /* NopiodappUITests.swift */,
+				EC3A2CFB218E2E4400E83894 /* Info.plist */,
+			);
+			path = NopiodappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3A2CD5218E2E4100E83894 /* Nopiodapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3A2CFE218E2E4400E83894 /* Build configuration list for PBXNativeTarget "Nopiodapp" */;
+			buildPhases = (
+				EC3A2CD2218E2E4100E83894 /* Sources */,
+				EC3A2CD3218E2E4100E83894 /* Frameworks */,
+				EC3A2CD4218E2E4100E83894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nopiodapp;
+			productName = Nopiodapp;
+			productReference = EC3A2CD6218E2E4100E83894 /* Nopiodapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3A2CE9218E2E4400E83894 /* NopiodappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3A2D01218E2E4400E83894 /* Build configuration list for PBXNativeTarget "NopiodappTests" */;
+			buildPhases = (
+				EC3A2CE6218E2E4400E83894 /* Sources */,
+				EC3A2CE7218E2E4400E83894 /* Frameworks */,
+				EC3A2CE8218E2E4400E83894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3A2CEC218E2E4400E83894 /* PBXTargetDependency */,
+			);
+			name = NopiodappTests;
+			productName = NopiodappTests;
+			productReference = EC3A2CEA218E2E4400E83894 /* NopiodappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC3A2CF4218E2E4400E83894 /* NopiodappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3A2D04218E2E4400E83894 /* Build configuration list for PBXNativeTarget "NopiodappUITests" */;
+			buildPhases = (
+				EC3A2CF1218E2E4400E83894 /* Sources */,
+				EC3A2CF2218E2E4400E83894 /* Frameworks */,
+				EC3A2CF3218E2E4400E83894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3A2CF7218E2E4400E83894 /* PBXTargetDependency */,
+			);
+			name = NopiodappUITests;
+			productName = NopiodappUITests;
+			productReference = EC3A2CF5218E2E4400E83894 /* NopiodappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3A2CCE218E2E4100E83894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gustavo Aquino Bernardino";
+				TargetAttributes = {
+					EC3A2CD5218E2E4100E83894 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EC3A2CE9218E2E4400E83894 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EC3A2CD5218E2E4100E83894;
+					};
+					EC3A2CF4218E2E4400E83894 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EC3A2CD5218E2E4100E83894;
+					};
+				};
+			};
+			buildConfigurationList = EC3A2CD1218E2E4100E83894 /* Build configuration list for PBXProject "Nopiodapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3A2CCD218E2E4100E83894;
+			productRefGroup = EC3A2CD7218E2E4100E83894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3A2CD5218E2E4100E83894 /* Nopiodapp */,
+				EC3A2CE9218E2E4400E83894 /* NopiodappTests */,
+				EC3A2CF4218E2E4400E83894 /* NopiodappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3A2CD4218E2E4100E83894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3A2CE4218E2E4400E83894 /* LaunchScreen.storyboard in Resources */,
+				EC3A2CE1218E2E4400E83894 /* Assets.xcassets in Resources */,
+				EC3A2CDF218E2E4100E83894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A2CE8218E2E4400E83894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A2CF3218E2E4400E83894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3A2CD2218E2E4100E83894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3A2CDC218E2E4100E83894 /* ViewController.swift in Sources */,
+				EC3A2CDA218E2E4100E83894 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A2CE6218E2E4400E83894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3A2CEF218E2E4400E83894 /* NopiodappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A2CF1218E2E4400E83894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3A2CFA218E2E4400E83894 /* NopiodappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3A2CEC218E2E4400E83894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3A2CD5218E2E4100E83894 /* Nopiodapp */;
+			targetProxy = EC3A2CEB218E2E4400E83894 /* PBXContainerItemProxy */;
+		};
+		EC3A2CF7218E2E4400E83894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3A2CD5218E2E4100E83894 /* Nopiodapp */;
+			targetProxy = EC3A2CF6218E2E4400E83894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC3A2CDD218E2E4100E83894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3A2CDE218E2E4100E83894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3A2CE2218E2E4400E83894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3A2CE3218E2E4400E83894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3A2CFC218E2E4400E83894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3A2CFD218E2E4400E83894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3A2CFF218E2E4400E83894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nopiodapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavo.Nopiodapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC3A2D00218E2E4400E83894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nopiodapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavo.Nopiodapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC3A2D02218E2E4400E83894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NopiodappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavo.NopiodappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nopiodapp.app/Nopiodapp";
+			};
+			name = Debug;
+		};
+		EC3A2D03218E2E4400E83894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NopiodappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavo.NopiodappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nopiodapp.app/Nopiodapp";
+			};
+			name = Release;
+		};
+		EC3A2D05218E2E4400E83894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NopiodappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavo.NopiodappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nopiodapp;
+			};
+			name = Debug;
+		};
+		EC3A2D06218E2E4400E83894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NopiodappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavo.NopiodappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nopiodapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3A2CD1218E2E4100E83894 /* Build configuration list for PBXProject "Nopiodapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A2CFC218E2E4400E83894 /* Debug */,
+				EC3A2CFD218E2E4400E83894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3A2CFE218E2E4400E83894 /* Build configuration list for PBXNativeTarget "Nopiodapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A2CFF218E2E4400E83894 /* Debug */,
+				EC3A2D00218E2E4400E83894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3A2D01218E2E4400E83894 /* Build configuration list for PBXNativeTarget "NopiodappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A2D02218E2E4400E83894 /* Debug */,
+				EC3A2D03218E2E4400E83894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3A2D04218E2E4400E83894 /* Build configuration list for PBXNativeTarget "NopiodappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A2D05218E2E4400E83894 /* Debug */,
+				EC3A2D06218E2E4400E83894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3A2CCE218E2E4100E83894 /* Project object */;
+}
